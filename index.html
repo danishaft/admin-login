@@ -34,26 +34,28 @@
         </nav>
     </header>
 
-   <div class="container">
-    <div class="admin-login lg-width-50 mx-auto p-5 bg-neutral-4 opacity-75 mt-4">
-        <h6 class="text-center login-fs fw-700 lg-text-black width-100 mb-5">Login to Admin Dashoard</h6>
-        <div class="input-group width-100 mb-lg-5 mb-4">
-            <p class="fs-copyright mb-1 fw-500">Admin ID</p>
-            <input type="text" name="Enter ID" id="" class="form-input-1 admin-login-input  width-100 fs-copyright py-3 px-5 mt-1 text-black" placeholder="Enter ID">
-            <img src="img/id-input.png" alt="" class="input-icon">
+   <div class="container mb-4">
+    <form action="" method="" id="admin-login-form">
+        <div class="admin-login lg-width-50 mx-auto p-5 bg-neutral-4 opacity-75  my-3">
+            <h6 class="text-center login-fs fw-700 lg-text-black width-100 mb-5">Login to Admin Dashoard</h6>
+            <div class="input-group width-100 mb-3">
+                <p class="fs-copyright mb-1 fw-500">Admin ID</p>
+                <input type="text" name="Enter ID" id="admin-login-id" class="form-input-1 admin-login-input  width-100 fs-copyright py-3 px-5 mt-1 text-black" placeholder="Enter ID">
+                <img src="img/id-input.png" alt="" class="input-icon">
+            </div>
+            <div class="input-group width-100">
+                <p class="fs-copyright mb-1 fw-500">Password</p>
+                <input type="Password" name="Password" id="admin-login-password" class="form-input-1 admin-login-input width-100 fs-copyright py-3 px-5 mt-1 text-black" placeholder="Password">
+                <img src="img/password-input.png" alt="" class="input-icon">
+            </div>
+            <div class="password-text width-100 d-flex align-content-center justify-content-between mt-4 mb-2">
+                <input class="form-check-input login-mb-checkbox me-lg-2 me-2" type="checkbox" value="" aria-label="checkbox">
+                <p class="fs-input login-mb-fs me-auto text-grey-2 ">Keep me logged in</p>
+                <a href="#" id="admin-login-fpassword" class="fs-copyright text-pink login-mb-fs">Forgot password?</a>
+            </div>
+            <button id="admin-login-btn" type="submit" class="login-primary-btn w-100 text-center fs-input fw-700 text-white bdr-rad-2 py-3 my-4">Log In</button>
         </div>
-        <div class="input-group width-100">
-            <p class="fs-copyright mb-1 fw-500">Password</p>
-            <input type="Password" name="Password" id="" class="form-input-1 admin-login-input width-100 fs-copyright py-3 px-5 mt-1 text-black" placeholder="Password">
-            <img src="img/password-input.png" alt="" class="input-icon">
-        </div>
-        <div class="password-text width-100 d-flex align-content-center justify-content-between mt-4 mb-2">
-            <input class="form-check-input login-mb-checkbox me-lg-3 me-2" type="checkbox" value="" aria-label="checkbox">
-            <p class="fs-input login-mb-fs me-auto text-grey-2 ">Keep me logged in</p>
-            <p class="fs-copyright text-pink login-mb-fs">Forgot password?</p>
-        </div>
-        <button class="login-primary-btn w-100 text-center fs-input fw-700 text-white bdr-rad-2 py-3 my-4">Log In</button>
-    </div>
+    </form>
    </div>
 
     <script src="js/bootstrap.js"></script>

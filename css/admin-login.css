@@ -13,6 +13,10 @@ body {
 }
 
 .form-check-input { margin-top: 0 !important;}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
 
 .login-primary-btn {
     background-color: #AF13AF;
